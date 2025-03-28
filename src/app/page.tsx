@@ -111,7 +111,7 @@ export default function Home() {
             fallback={<Skeleton className="w-[120px] h-10" />}
           >
             <Button onClick={() => router.push(`/favorite-clubs`)}>
-              ดูชมรมที่ชื่นชม
+              ดูชมรมโปรด
             </Button>
           </Loading>
         </div>
